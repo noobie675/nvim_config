@@ -12,7 +12,7 @@ copy and paste a command into your terminal..
 
 ### FOR ME!
 
-sh -c 'curl -fLo "${XDG_DATA_HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+	sh -c 'curl -fLo "${XDG_DATA_HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 
 
@@ -51,10 +51,11 @@ After installing pluggins in vim ther following dependencies must be isntalled a
 		link: 'https://nvm-sh/nvm'
 		copy, paste and run the script either with 'curl' or 'wget'
 
-	### FOR ME!
+### FOR ME!
 	curl -o- https://raw.githubusercontent.com/nvm-sh/nvim/v0.39.1/install.sh | bash
 
-	### Note!
+
+### Note!
 	take note of the nvm version
 	
 	+	installing node from nvm
@@ -75,7 +76,7 @@ After installing pluggins in vim ther following dependencies must be isntalled a
 			yarn install
 			---
 	+	this should solve the notifications that may appear in red on the nvim start
-	+	### SEE 5.a for auto-completion on languages
+	+	SEE 5.a for auto-completion on languages
 
 ## 4.c Excuberant Ctag
 	+	Since tagbar<f8> is in the init file we need to install this dependency
