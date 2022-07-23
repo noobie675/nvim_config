@@ -11,9 +11,9 @@ visit 'https://github/junegunn/vim-plug'
 copy and paste a command into your terminal..
 
 ### FOR ME!
----
+
 sh -c 'curl -fLo "${XDG_DATA_HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
----
+
 
 
 ## 2 Nerd Fonts
@@ -30,10 +30,9 @@ Agave Nerd Font
 ## 3 Install VIM PLuggins
 
 Open init.vim
+
 Enter
----
 :PluginInstall
----
 
 
 ## 4 Dependencies
@@ -99,3 +98,7 @@ Install from form within the vim terminal:
 	+	python		-> :CocInstall coc-python
 		*must have python3 installed and pip3 install jedi
 	+	bash script	-> :CocInstall coc-sh
+
+
+
+
